@@ -1,0 +1,278 @@
+html {
+    background: #1A1A1D;
+}
+
+#searchButton{
+  margin-left: 10px;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+    overflow: auto;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .searchbar{
+    text-align: center;
+      width: auto;
+      size: 20
+}
+.fa-bars{
+    color: #818181;
+    font-size: 32px;
+    padding: 15px;
+}
+.fa-bars:hover {
+    color: #f1f1f1;
+}
+i{
+ text-align: center;
+}
+.fa-backward, .fa-play-circle, .fa-pause-circle, .fa-forward, .fa-random, .fa-undo  {
+  margin: 10px;
+  padding: 7px;
+  color: white;
+  align-content: center;
+  display: block;
+  margin:auto;
+  
+}
+
+.fa-backward:hover{
+  color: #062f4f;
+
+}
+.fa-play-circle:hover{
+  color: #062f4f;
+
+} 
+.fa-pause-circle:hover {
+  color: #062f4f;
+
+} 
+.fa-forward:hover{
+  color: #062f4f;
+
+} 
+.fa-random:hover {
+  color: #062f4f;
+}
+
+.fa-undo:hover  {
+  color: #062f4f;
+
+}
+
+
+.fa-backward, .fa-forward, .fa-random, .fa-undo {
+  font-size: 40px;
+  padding: 20px;
+}
+.fa-play-circle{
+  font-size: 80px;
+}
+.fa-pause-circle{
+  font-size: 80px;
+}
+
+#mainimage{
+  height: 300px;
+  width: 300px;
+}
+#coverart{
+position: absolute; 
+}
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+    
+  }
+  
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  #songs {
+    color: white;
+    text-align: center;
+    background: #062f4f;
+    font-size: 16px;
+  }
+
+  #songbutton {
+    color: white;
+    text-align: left;
+    font-size: 24px;
+  }
+  #songbutton:hover{
+    background: #062f4f;
+    font-size: 24px;
+  }
+  #playlistbutton{
+    color: white;
+    text-align: left;
+    font-size: 24px;
+  }
+  #playlistbutton:hover{
+    background: #062f4f;
+    font-size: 24px;
+  }
+
+  #createPlaylist{
+    color: white;
+    text-align: left;
+    font-size: 24px;
+  }
+  #createPlaylist:hover{
+    background: #062f4f;
+    font-size: 24px;
+  }
+
+  #songsection {
+    color: white;
+  }
+
+  #albums {
+    color: white;
+    text-align: center;
+    background: #062f4f;
+    font-size: 16px;
+  }
+  #albumsection {
+    color: white;
+  }
+  #artist {
+    color: white;
+    text-align: center;
+    background: #062f4f;
+    font-size: 16px;
+  }
+  #artistsection {
+    color: white;
+  }
+
+  .results {
+    color: white;
+    
+  }
+  .results:hover {
+    background: #062f4f;
+  }
+
+  #playsongsection{
+    color: white;
+  }
+  .addsongheader{
+    color: white;
+  }
+
+  .playlistadd{
+    color: white;
+    overflow: auto;
+  }
+
+  .playlistresults{
+    background: #062f4f;
+    padding: 5px;    
+  }
+  
+  #playlistheader{
+    color: white;
+    text-align: center;
+    background: #062f4f;
+    font-size: 16px;
+  }
+  #playlistaddsongheader{
+    color: white;
+    text-align: center;
+    background: #062f4f;
+    font-size: 16px;
+  }
+  ul,li{
+    list-style-type: none;
+    padding: 5px;
+  }
+  #coverandcontrols{
+    width: auto;
+    align-content: center;
+  }
+  #songandartist{
+    width: auto;
+    align-content: center;
+  }
+  .songandartisttext{
+    text-align: center;
+    display:block;
+    margin:auto;
+    color: white;
+    margin: 5px;
+    font-family: Lato;
+  }
+  .songandartisttext h3 {
+    font-weight: 800;
+  }
+  #musicControls{
+    width: auto;
+    align-content: center;
+    text-align: center;
+    display:block;
+    margin: 20px;
+  }
+  .coverart {
+    align-content: center;
+    display:block;
+    margin:auto;
+  }
+
+.playall{
+  background: lightgrey;
+  color: black;
+}
+.playall:hover{
+  background: gray;
+}
+
+.playlistsongresults:hover{
+  background: #062f4f;
+
+}
+
+.playlistadd:hover{
+  background: #062f4f;
+
+}
+  
+  
